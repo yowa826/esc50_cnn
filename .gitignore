@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.conda/
+.env
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (raw is not tracked)
+data/audio/
+data/processed/
+
+# Model checkpoints / heavy artifacts
+models/
+**/checkpoints/
+*.pt
+*.pth
+
+# Optional: large archives
+*.zip
+*.tar
+*.tar.gz
+
+# (Keep reports by default; ignore only heavy subdirs if you have them)
+# reports/**/checkpoints/
+# reports/**/features/
