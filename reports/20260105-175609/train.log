@@ -1,0 +1,90 @@
+2026-01-05 17:56:09 | INFO | Run: 20260105-175609 | device=cuda
+2026-01-05 17:56:09 | INFO | Loaded meta: 2000 rows, 50 classes
+2026-01-05 17:56:09 | INFO | Saved split manifests: data\processed\splits\20260105-175609
+2026-01-05 17:56:09 | INFO | Feature cache enabled: data\processed\features\15b3b6019f8d
+2026-01-05 17:56:11 | INFO | Epoch 1 | lr=1.000e-03
+2026-01-05 17:56:32 | INFO |   train loss=3.9056 acc=0.0233 | val loss=3.7971 acc=0.0550
+2026-01-05 17:56:32 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:56:32 | INFO | Epoch 2 | lr=1.000e-03
+2026-01-05 17:56:51 | INFO |   train loss=3.7295 acc=0.0492 | val loss=3.5393 acc=0.0800
+2026-01-05 17:56:51 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:56:51 | INFO | Epoch 3 | lr=1.000e-03
+2026-01-05 17:57:12 | INFO |   train loss=3.5357 acc=0.0633 | val loss=3.2991 acc=0.1025
+2026-01-05 17:57:12 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:57:12 | INFO | Epoch 4 | lr=1.000e-03
+2026-01-05 17:57:31 | INFO |   train loss=3.3842 acc=0.0875 | val loss=3.1945 acc=0.1275
+2026-01-05 17:57:31 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:57:31 | INFO | Epoch 5 | lr=1.000e-03
+2026-01-05 17:57:51 | INFO |   train loss=3.2586 acc=0.1008 | val loss=3.0066 acc=0.1700
+2026-01-05 17:57:51 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:57:51 | INFO | Epoch 6 | lr=1.000e-03
+2026-01-05 17:58:10 | INFO |   train loss=3.1993 acc=0.1008 | val loss=2.9287 acc=0.1725
+2026-01-05 17:58:10 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:58:10 | INFO | Epoch 7 | lr=1.000e-03
+2026-01-05 17:58:29 | INFO |   train loss=3.0916 acc=0.1250 | val loss=2.9178 acc=0.1625
+2026-01-05 17:58:29 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:58:29 | INFO | Epoch 8 | lr=1.000e-03
+2026-01-05 17:58:48 | INFO |   train loss=3.0590 acc=0.1333 | val loss=2.7880 acc=0.2200
+2026-01-05 17:58:48 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:58:48 | INFO | Epoch 9 | lr=1.000e-03
+2026-01-05 17:59:08 | INFO |   train loss=2.9256 acc=0.1708 | val loss=2.6748 acc=0.2325
+2026-01-05 17:59:08 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:59:08 | INFO | Epoch 10 | lr=1.000e-03
+2026-01-05 17:59:27 | INFO |   train loss=2.9244 acc=0.1700 | val loss=2.5949 acc=0.2725
+2026-01-05 17:59:27 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:59:27 | INFO | Epoch 11 | lr=1.000e-03
+2026-01-05 17:59:46 | INFO |   train loss=2.8427 acc=0.1925 | val loss=2.5672 acc=0.3100
+2026-01-05 17:59:46 | INFO |   ✓ saved best checkpoint
+2026-01-05 17:59:46 | INFO | Epoch 12 | lr=1.000e-03
+2026-01-05 18:00:05 | INFO |   train loss=2.7868 acc=0.1825 | val loss=2.5413 acc=0.2875
+2026-01-05 18:00:05 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:00:05 | INFO | Epoch 13 | lr=1.000e-03
+2026-01-05 18:00:25 | INFO |   train loss=2.7211 acc=0.2075 | val loss=2.3993 acc=0.3000
+2026-01-05 18:00:25 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:00:25 | INFO | Epoch 14 | lr=1.000e-03
+2026-01-05 18:00:45 | INFO |   train loss=2.6558 acc=0.2233 | val loss=2.3040 acc=0.3525
+2026-01-05 18:00:45 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:00:45 | INFO | Epoch 15 | lr=1.000e-03
+2026-01-05 18:01:05 | INFO |   train loss=2.6277 acc=0.2350 | val loss=2.3482 acc=0.3350
+2026-01-05 18:01:05 | INFO | Epoch 16 | lr=1.000e-03
+2026-01-05 18:01:25 | INFO |   train loss=2.5722 acc=0.2300 | val loss=2.2769 acc=0.3725
+2026-01-05 18:01:25 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:01:25 | INFO | Epoch 17 | lr=1.000e-03
+2026-01-05 18:01:45 | INFO |   train loss=2.4969 acc=0.2458 | val loss=2.1727 acc=0.3850
+2026-01-05 18:01:45 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:01:45 | INFO | Epoch 18 | lr=1.000e-03
+2026-01-05 18:02:05 | INFO |   train loss=2.4558 acc=0.2992 | val loss=2.2055 acc=0.3725
+2026-01-05 18:02:05 | INFO | Epoch 19 | lr=1.000e-03
+2026-01-05 18:02:27 | INFO |   train loss=2.4290 acc=0.2833 | val loss=2.1437 acc=0.3775
+2026-01-05 18:02:27 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:02:27 | INFO | Epoch 20 | lr=1.000e-03
+2026-01-05 18:02:49 | INFO |   train loss=2.4042 acc=0.2858 | val loss=2.1951 acc=0.3675
+2026-01-05 18:02:49 | INFO | Epoch 21 | lr=1.000e-03
+2026-01-05 18:03:12 | INFO |   train loss=2.3753 acc=0.3117 | val loss=2.1166 acc=0.3675
+2026-01-05 18:03:12 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:03:12 | INFO | Epoch 22 | lr=1.000e-03
+2026-01-05 18:03:34 | INFO |   train loss=2.3110 acc=0.3108 | val loss=2.0795 acc=0.3850
+2026-01-05 18:03:35 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:03:35 | INFO | Epoch 23 | lr=1.000e-03
+2026-01-05 18:03:57 | INFO |   train loss=2.3279 acc=0.3283 | val loss=2.1088 acc=0.3825
+2026-01-05 18:03:57 | INFO | Epoch 24 | lr=1.000e-03
+2026-01-05 18:04:19 | INFO |   train loss=2.3415 acc=0.3067 | val loss=2.0760 acc=0.3700
+2026-01-05 18:04:19 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:04:19 | INFO | Epoch 25 | lr=1.000e-03
+2026-01-05 18:04:42 | INFO |   train loss=2.2644 acc=0.2975 | val loss=1.9885 acc=0.4200
+2026-01-05 18:04:42 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:04:42 | INFO | Epoch 26 | lr=1.000e-03
+2026-01-05 18:05:04 | INFO |   train loss=2.2290 acc=0.3200 | val loss=1.9674 acc=0.4275
+2026-01-05 18:05:04 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:05:04 | INFO | Epoch 27 | lr=1.000e-03
+2026-01-05 18:05:25 | INFO |   train loss=2.2267 acc=0.3358 | val loss=1.9964 acc=0.3975
+2026-01-05 18:05:25 | INFO | Epoch 28 | lr=1.000e-03
+2026-01-05 18:05:45 | INFO |   train loss=2.1954 acc=0.3467 | val loss=1.9174 acc=0.4375
+2026-01-05 18:05:45 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:05:45 | INFO | Epoch 29 | lr=1.000e-03
+2026-01-05 18:06:05 | INFO |   train loss=2.1988 acc=0.3267 | val loss=1.9689 acc=0.3825
+2026-01-05 18:06:05 | INFO | Epoch 30 | lr=1.000e-03
+2026-01-05 18:06:24 | INFO |   train loss=2.1428 acc=0.3667 | val loss=1.7806 acc=0.4875
+2026-01-05 18:06:24 | INFO |   ✓ saved best checkpoint
+2026-01-05 18:06:24 | INFO | Training done.
+2026-01-05 18:06:24 | INFO | Summary: {'best_val_loss': 1.780584421157837, 'run_dir': 'reports\\20260105-175609', 'best_ckpt': 'reports\\20260105-175609\\best.pt', 'last_ckpt': 'reports\\20260105-175609\\last.pt'}

@@ -1,0 +1,88 @@
+project:
+  name: esc50-cnn
+  seed: 42
+  device: auto  # auto | cpu | cuda
+
+paths:
+  data_dir: data
+  audio_dir: data/audio
+  meta_csv: data/meta/esc50.csv
+  processed_dir: data/processed
+  reports_dir: reports
+  models_dir: models
+
+split:
+  # ESC-50 is pre-arranged into 5 folds; each fold has 8 clips per class.
+  # 3/1/1 folds => 24/8/8 => train:val:test = 6:2:2 per class.
+  method: folds  # folds | random_stratified | kfold
+  train_folds: [1, 2, 3]
+  val_folds: [4]
+  test_folds: [5]
+  kfold:
+    num_folds: 5
+    test_fold: 1
+    val_fold: 2
+
+audio:
+  sample_rate: 44100
+  duration_sec: 5.0
+  mono: true
+
+features:
+  type: log_mel
+  n_fft: 2048
+  hop_length: 512
+  win_length: 2048
+  n_mels: 128
+  f_min: 0.0
+  f_max: null
+  log_eps: 1.0e-6
+  normalize: per_sample  # per_sample | none
+  cache:
+    enabled: true
+    format: pt  # pt
+    # Cache is versioned by a hash of the feature config to avoid mixing incompatible features.
+
+augment:
+  enabled: true
+  time_mask_param: 40
+  freq_mask_param: 16
+  gain_db: 6.0
+  time_shift_pct: 0.1
+
+dataloader:
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+
+model:
+  num_classes: 50
+  in_channels: 1
+  conv_blocks:
+    # Define channels per block: [in, out] pairs are derived from this list
+    channels: [32, 64, 128, 256]
+    kernel_sizes: [3, 3, 3, 3]
+    pool_sizes: [2, 2, 2, 2]
+    dropout: 0.2
+  head:
+    hidden_dim: 256
+    dropout: 0.3
+
+train:
+  epochs: 30
+  optimizer:
+    name: adamw
+    lr: 1.0e-3
+    weight_decay: 1.0e-4
+  scheduler:
+    name: plateau
+    factor: 0.5
+    patience: 3
+    min_lr: 1.0e-6
+  early_stopping:
+    enabled: true
+    patience: 8
+  mixed_precision: true
+
+eval:
+  topk: [1, 5]

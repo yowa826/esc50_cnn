@@ -1,0 +1,6 @@
+{
+  "best_val_loss": 1.780584421157837,
+  "run_dir": "reports\\20260105-175609",
+  "best_ckpt": "reports\\20260105-175609\\best.pt",
+  "last_ckpt": "reports\\20260105-175609\\last.pt"
+}

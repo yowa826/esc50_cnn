@@ -1,0 +1,315 @@
+{
+  "dog": {
+    "precision": 0.25,
+    "recall": 0.625,
+    "f1-score": 0.35714285714285715,
+    "support": 8.0
+  },
+  "rooster": {
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.7272727272727273,
+    "support": 8.0
+  },
+  "pig": {
+    "precision": 0.16666666666666666,
+    "recall": 0.125,
+    "f1-score": 0.14285714285714285,
+    "support": 8.0
+  },
+  "cow": {
+    "precision": 0.2727272727272727,
+    "recall": 0.75,
+    "f1-score": 0.4,
+    "support": 8.0
+  },
+  "frog": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "cat": {
+    "precision": 0.16666666666666666,
+    "recall": 0.125,
+    "f1-score": 0.14285714285714285,
+    "support": 8.0
+  },
+  "hen": {
+    "precision": 0.4166666666666667,
+    "recall": 0.625,
+    "f1-score": 0.5,
+    "support": 8.0
+  },
+  "insects": {
+    "precision": 0.625,
+    "recall": 0.625,
+    "f1-score": 0.625,
+    "support": 8.0
+  },
+  "sheep": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "crow": {
+    "precision": 0.375,
+    "recall": 0.375,
+    "f1-score": 0.375,
+    "support": 8.0
+  },
+  "rain": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "sea_waves": {
+    "precision": 0.4375,
+    "recall": 0.875,
+    "f1-score": 0.5833333333333334,
+    "support": 8.0
+  },
+  "crackling_fire": {
+    "precision": 0.2,
+    "recall": 0.125,
+    "f1-score": 0.15384615384615385,
+    "support": 8.0
+  },
+  "crickets": {
+    "precision": 0.3333333333333333,
+    "recall": 0.125,
+    "f1-score": 0.18181818181818182,
+    "support": 8.0
+  },
+  "chirping_birds": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8.0
+  },
+  "water_drops": {
+    "precision": 0.3333333333333333,
+    "recall": 0.375,
+    "f1-score": 0.35294117647058826,
+    "support": 8.0
+  },
+  "wind": {
+    "precision": 0.36363636363636365,
+    "recall": 0.5,
+    "f1-score": 0.42105263157894735,
+    "support": 8.0
+  },
+  "pouring_water": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1-score": 0.7058823529411765,
+    "support": 8.0
+  },
+  "toilet_flush": {
+    "precision": 0.8333333333333334,
+    "recall": 0.625,
+    "f1-score": 0.7142857142857143,
+    "support": 8.0
+  },
+  "thunderstorm": {
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1-score": 0.8,
+    "support": 8.0
+  },
+  "crying_baby": {
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.7272727272727273,
+    "support": 8.0
+  },
+  "sneezing": {
+    "precision": 0.21739130434782608,
+    "recall": 0.625,
+    "f1-score": 0.3225806451612903,
+    "support": 8.0
+  },
+  "clapping": {
+    "precision": 0.3333333333333333,
+    "recall": 0.125,
+    "f1-score": 0.18181818181818182,
+    "support": 8.0
+  },
+  "breathing": {
+    "precision": 0.25,
+    "recall": 0.125,
+    "f1-score": 0.16666666666666666,
+    "support": 8.0
+  },
+  "coughing": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "footsteps": {
+    "precision": 0.7142857142857143,
+    "recall": 0.625,
+    "f1-score": 0.6666666666666666,
+    "support": 8.0
+  },
+  "laughing": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "brushing_teeth": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1-score": 0.7058823529411765,
+    "support": 8.0
+  },
+  "snoring": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444444,
+    "support": 8.0
+  },
+  "drinking_sipping": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "door_wood_knock": {
+    "precision": 0.7,
+    "recall": 0.875,
+    "f1-score": 0.7777777777777778,
+    "support": 8.0
+  },
+  "mouse_click": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 8.0
+  },
+  "keyboard_typing": {
+    "precision": 0.35714285714285715,
+    "recall": 0.625,
+    "f1-score": 0.45454545454545453,
+    "support": 8.0
+  },
+  "door_wood_creaks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "can_opening": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8.0
+  },
+  "washing_machine": {
+    "precision": 0.18181818181818182,
+    "recall": 0.25,
+    "f1-score": 0.21052631578947367,
+    "support": 8.0
+  },
+  "vacuum_cleaner": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 8.0
+  },
+  "clock_alarm": {
+    "precision": 0.4,
+    "recall": 0.75,
+    "f1-score": 0.5217391304347826,
+    "support": 8.0
+  },
+  "clock_tick": {
+    "precision": 0.46153846153846156,
+    "recall": 0.75,
+    "f1-score": 0.5714285714285714,
+    "support": 8.0
+  },
+  "glass_breaking": {
+    "precision": 0.5,
+    "recall": 0.125,
+    "f1-score": 0.2,
+    "support": 8.0
+  },
+  "helicopter": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "chainsaw": {
+    "precision": 0.5454545454545454,
+    "recall": 0.75,
+    "f1-score": 0.631578947368421,
+    "support": 8.0
+  },
+  "siren": {
+    "precision": 0.45454545454545453,
+    "recall": 0.625,
+    "f1-score": 0.5263157894736842,
+    "support": 8.0
+  },
+  "car_horn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "engine": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "train": {
+    "precision": 0.3333333333333333,
+    "recall": 0.375,
+    "f1-score": 0.35294117647058826,
+    "support": 8.0
+  },
+  "church_bells": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444444,
+    "support": 8.0
+  },
+  "airplane": {
+    "precision": 0.4166666666666667,
+    "recall": 0.625,
+    "f1-score": 0.5,
+    "support": 8.0
+  },
+  "fireworks": {
+    "precision": 0.14285714285714285,
+    "recall": 0.125,
+    "f1-score": 0.13333333333333333,
+    "support": 8.0
+  },
+  "hand_saw": {
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1-score": 0.6666666666666666,
+    "support": 8.0
+  },
+  "accuracy": 0.415,
+  "macro avg": {
+    "precision": 0.37031127930040975,
+    "recall": 0.415,
+    "f1-score": 0.3662832226270148,
+    "support": 400.0
+  },
+  "weighted avg": {
+    "precision": 0.37031127930040975,
+    "recall": 0.415,
+    "f1-score": 0.3662832226270148,
+    "support": 400.0
+  }
+}
